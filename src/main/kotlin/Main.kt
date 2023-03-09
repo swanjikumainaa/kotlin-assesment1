@@ -1,4 +1,12 @@
 fun main(){
+
+    one()
+
+    two()
+
+    three()
+
+
     var calc1 = Calculator(50,9.2)
     calc1.add()
     calc1.subtract()
@@ -26,9 +34,13 @@ fun one(x:String,y:String):String{
 
 //2. Write and invoke one function that takes in an array of integers and returns
 //these 3 values: smallest, largest and average of all the elements (7 pts)
-fun two(j:Int,k):Array{
+fun two(j:Int,k:Int):Double{
     var j = arrayOf(1,3,78,95,34,7,10,6)
-    smallest =
+     j.sort()
+    var smallest = j[0]
+    var largest = j[8]
+    var average =
+
 
 }
 
