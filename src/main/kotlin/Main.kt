@@ -1,4 +1,10 @@
 fun main(){
+    var calc1 = Calculator(50,9.2)
+    calc1.add()
+    calc1.subtract()
+    calc1.divide()
+    calc1.multiply()
+
 
 }
 
@@ -20,7 +26,9 @@ fun one(x:String,y:String):String{
 
 //2. Write and invoke one function that takes in an array of integers and returns
 //these 3 values: smallest, largest and average of all the elements (7 pts)
-fun two():Array{
+fun two(j:Int,k):Array{
+    var j = arrayOf(1,3,78,95,34,7,10,6)
+    smallest =
 
 }
 
@@ -47,9 +55,19 @@ fun four (){
 //(iii) Accurate division between any 2 numbers
 //(iv) Multiplication of any 2 numbers
 //Instantiate your calculator object and invoke all its functions
-class Calculator(var 24:Int,var 5.6:Double):Double{
+class Calculator(var q:Int,var r:Double ):Double{
     fun add(){
+         println(q+r)
+    }
+    fun subtract(){
+        println(q-r)
+    }
+    fun divide(){
+        println(q/r)
+    }
 
+    fun multiply(){
+        println(q*r)
     }
 
 }
